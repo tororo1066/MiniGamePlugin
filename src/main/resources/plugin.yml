@@ -1,0 +1,4 @@
+name: MiniGamePlugin
+version: @version@
+main: minigameplugin.minigameplugin.MiniGamePlugin
+api-version: 1.17
