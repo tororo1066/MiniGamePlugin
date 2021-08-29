@@ -1,4 +1,16 @@
 name: MiniGamePlugin
-version: @version@
+version: 1.0
 main: minigameplugin.minigameplugin.MiniGamePlugin
 api-version: 1.17
+
+commands:
+  minigame:
+    aliases:
+      - game
+      - mini
+    permission: minigame.user
+  minigameop:
+    aliases:
+      - gameop
+      - miniop
+    permission: minigame.op
